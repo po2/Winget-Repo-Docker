@@ -11,7 +11,7 @@ on:
     branches: main
     paths:
       - 'Dockerfile'
-      - 'src/**'
+      - '**'
       - '.github/workflows/build_image.yml'
     tags:
       - 'v*.*.*'  # Matches semantic version tags like v1.0.0
